@@ -6,7 +6,7 @@ format: 0: "word/phrase", 1: dictionary file (in current directory)
 2: list of words that must be in the anagram, 3: list of words to exclude from the anagram,
 and 4: maximum number of words in the anagram (0 = unlimited)
 Example: Anagram("Richard Neal", "english.txt", ["dire"], ["card"], 3)
-will generate all anagrams for Mark LeBlanc from the dictionary english.txt that include the word
+will generate all anagrams for Richard Neal from the dictionary english.txt that include the word
 dire, don't include the word card, and are 3 words or less.
 """
 def main():
